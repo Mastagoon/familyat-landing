@@ -6,6 +6,7 @@
 <link href="/output.css" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@800&family=Blaka&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body class="h-full bg-light-blue">
 	<nav class="w-full grid grid-cols-12">
@@ -31,10 +32,10 @@
 		<div class="md:col-span-2"></div>
 		<div dir="rtl" class="md:col-span-4 col-span-12">
 			<h1 class="text-3xl font-bold md:text-right text-center text-dark-blue">تواصل معنا</h1>
-<form action="submitForm" class="flex flex-col">
-	<div class="flex flex-row justify-start my-3">
-		<input dir="rtl" name="firstName" class="px-2 py-1 ml-3 rounded-md border-light-gray border-[1px] bg-transparent" type="text" placeholder="الاسم الاول">
-		<input dir="rtl" name="lastName" class="px-2 py-1 rounded-md border-light-gray border-[1px] bg-transparent" type="text" placeholder="الاسم الأخير">
+<form action="submitForm" class="flex flex-col mx-5 md:mx-0">
+	<div class="flex flex-row justify-start my-3 w-full">
+		<input dir="rtl" name="firstName" class="px-2 w-full py-1 ml-3 rounded-md border-light-gray border-[1px] bg-transparent" type="text" placeholder="الاسم الاول">
+		<input dir="rtl" name="lastName" class="px-2 py-1 w-full rounded-md border-light-gray border-[1px] bg-transparent" type="text" placeholder="الاسم الأخير">
 	</div>
 		<input dir="rtl" name="email" class="px-2 py-1 rounded-md border-light-gray border-[1px] bg-transparent" type="text" placeholder="البريد الإلكتروني">
 		<textarea id="content" name="content"  rows="9" placeholder="المحتوى"  class="px-2 w-full my-3 resize-none rounded-md border-light-gray border-[1px] bg-transparent" ></textarea>
