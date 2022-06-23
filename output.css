@@ -920,8 +920,20 @@ body {
     display: block;
   }
 
+  .md\:inline {
+    display: inline;
+  }
+
+  .md\:grid {
+    display: grid;
+  }
+
   .md\:justify-end {
     justify-content: flex-end;
+  }
+
+  .md\:overflow-x-hidden {
+    overflow-x: hidden;
   }
 
   .md\:text-right {
